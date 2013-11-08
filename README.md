@@ -17,8 +17,18 @@ I added some niceties for this box.
 3) Password are "oracle" for system and sys.  You can see those in the response file in the root.
 4) Password for root is vagrant (like..like all vagrant boxes) database.
 5) Related to (2) above, I have a really basic shell script that can be used to incorporate your owne schemas when you do the vagrant up or sun seperately.
+6) You can access the database in either of the following ways from your host machine:
+
+- http://localhost:8080/apex/f?p=4950:2:2370103243114289::NO:::
+- Via the normal tns listener port of 1521...for JDeveloper or Eclipse.
+
+I will be posting some more information on http://vbatik.wordpress.com so stay tuned. 
 
 Enjoy...
 
 /Matt
+
+Twitter: @baldwinonline
+
+
 
