@@ -1,0 +1,12 @@
+
+Login into Apex
+
+localhost:8080/apex/f?p=4950:2:2370103243114289::NO:::
+
+ALTER USER hr ACCOUNT UNLOCK;
+ALTER USER hr IDENTIFIED BY oracle;
+
+echo . /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh  >> .bashrc
+
+sqlplus system/oracle@localhost  @/vagrant/unlock_hr.sql
+
