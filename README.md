@@ -29,7 +29,7 @@ I added some dba niceties for this box.
 - Related to (2) above, I have a really basic shell script that can be used to incorporate your own schemas when you do the vagrant up or run seperately.  It is a nice example that I found and hacked.
 - You can access the database in either of the following ways from your host machine:
 
-  - http://localhost:8080/apex/f?p=4950:2:2370103243114289::NO:::
+  - http://localhost:8080/apex
   - Via the normal tns listener port of 1521 from your host machine...for tools like JDeveloper or Eclipse.
 
 The one area which I needed a little thought on is handling the swap file if you perform a halt.  I don't add the swap file which is created in the site pp to fstab.  If someone wants to help with that...I will welcome that.  Therefore, I would use a vagrant suspend command. Once running...why do you need to reboot now?  Just do a pause.
