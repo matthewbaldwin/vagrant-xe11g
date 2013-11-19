@@ -1,7 +1,7 @@
 vagrant-xe11g
 =============
 
-Version 1.1 - Notes
+Version 1.0.1 - Notes
 
 Changed to smaller packer.io based box with VBox 4.3.2 VBGA
 Turned off iptables in site_xe11g.pp script in the OS config section.
