@@ -78,6 +78,16 @@ class os2 {
       unless => "/bin/grep '^/var/swap.1' /etc/fstab 2>/dev/null",
 
   }
+  
+  # turn off iptables
+  
+  service { iptables:
+        enable    => false,
+        ensure    => false,
+        hasstatus => true,
+  }
+
+
 
  
 }
