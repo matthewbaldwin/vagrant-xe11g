@@ -16,7 +16,7 @@ class os2 {
   $install = [ 'binutils.x86_64', 'compat-libstdc++-33.x86_64', 'glibc.x86_64','ksh.x86_64','libaio.x86_64',
                'libgcc.x86_64', 'libstdc++.x86_64', 'make.x86_64','compat-libcap1.x86_64', 'gcc.x86_64',
                'gcc-c++.x86_64','glibc-devel.x86_64','libaio-devel.x86_64','libstdc++-devel.x86_64',
-               'sysstat.x86_64','unixODBC-devel','glibc.i686','libXext.i686','libXtst.i686','bc.x86_64']
+               'sysstat.x86_64','unixODBC-devel','glibc.i686','libXext','libXtst','bc.x86_64']
                
                
   package { $install:
